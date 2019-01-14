@@ -12,7 +12,7 @@ items = []
 connectionstring = "postgresql://postgres:postgres@pythonflask.eastus.cloudapp.azure.com:5432/costs"
 
 class Item(Resource):
-    @jwt_required()        # requires authentication if this is added
+    #@jwt_required()        # requires authentication if this is added
     def get(self, name):
         # Next finds next item, if list is empty the program will break so we use None at end to prevent this if list is empty.
         item = next(filter(lambda x: x['name'] == name, items), None)
