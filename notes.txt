@@ -1,0 +1,7 @@
+
+amend app.py
+db
+models
+resources
+ssh clacko@40.117.73.168.eastus.cloudapp.azure.com
+Lewisjosh2001!
