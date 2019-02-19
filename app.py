@@ -6,7 +6,7 @@ from security import authenticate, identity
 app = Flask(__name__)
 app.secret_key = 'andypassword'
 api = Api(app)
-jwt = JWT(app, authenticate, identity) # /auth endpoint
+jwt = JWT(app, authenticate, identity) # /auth endpoint f
 
 items = []
 connectionstring = "postgresql://postgres:postgres@pythonflask.eastus.cloußßdapp.azure.com:5432/flaskcourse"
