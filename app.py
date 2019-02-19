@@ -9,7 +9,7 @@ api = Api(app)
 jwt = JWT(app, authenticate, identity) # /auth endpoint
 
 items = []
-connectionstring = "postgresql://postgres:postgres@pythonflask.eastus.cloudapp.azure.com:5432/costs"
+connectionstring = "postgresql://postgres:postgres@pythonflask.eastus.cloußßdapp.azure.com:5432/flaskcourse"
 
 class Item(Resource):
     #@jwt_required()        # requires authentication if this is added
